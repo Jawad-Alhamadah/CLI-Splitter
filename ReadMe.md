@@ -1,15 +1,15 @@
 # CLI File Splitter
 This simple, two file scripts allow you to split a file when needed and combine a series of chunks back together.
 
-#Installation 
+# Installation 
 The two scripts rely on the library `alive_progress` 
 install it before using the scripts:
 ```
 pip install alive_progress
 ```
-##User Guide
+## User Guide
 
-###Split
+### Split
 Both scripts have a `--help` flag that shows you the options what that they do.
 
 These are options for the split script:
@@ -26,7 +26,7 @@ You can choose the size in bytes, kilo, mega or giga bytes.
 
 You also have the option to name the chunks with the `--filename-chunks` flag
 
-###Combine
+### Combine
 to combine the file back into one, use the combine script.
 These are the options:
 
